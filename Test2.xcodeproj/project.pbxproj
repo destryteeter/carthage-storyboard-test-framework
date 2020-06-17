@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63AAF31F249A6D1800DB981C /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AAF31E249A6D1800DB981C /* Color.xcassets */; };
+		63AAF321249A6EF300DB981C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AAF320249A6EF200DB981C /* Assets.xcassets */; };
 		63D83D57248AA3280014017C /* Test2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D83D4D248AA3280014017C /* Test2.framework */; };
 		63D83D5C248AA3280014017C /* Test2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D83D5B248AA3280014017C /* Test2Tests.swift */; };
 		63D83D5E248AA3280014017C /* Test2.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D83D50248AA3280014017C /* Test2.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63AAF31E249A6D1800DB981C /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		63AAF320249A6EF200DB981C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D83D4D248AA3280014017C /* Test2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Test2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D83D50248AA3280014017C /* Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
 		63D83D51248AA3280014017C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				63D83D67248AA33E0014017C /* Test.storyboard */,
 				63D83D7B248AB3B10014017C /* TViewController.swift */,
 				63D83D51248AA3280014017C /* Info.plist */,
+				63AAF320249A6EF200DB981C /* Assets.xcassets */,
+				63AAF31E249A6D1800DB981C /* Color.xcassets */,
 			);
 			path = Test2;
 			sourceTree = "<group>";
@@ -185,6 +191,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AAF31F249A6D1800DB981C /* Color.xcassets in Resources */,
+				63AAF321249A6EF300DB981C /* Assets.xcassets in Resources */,
 				63D83D68248AA33E0014017C /* Test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
